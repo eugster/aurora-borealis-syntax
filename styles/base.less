@@ -44,7 +44,7 @@ atom-text-editor, atom-text-editor {
 
   .cursor {
     color: @syntax-cursor-color;
-  }
+	}
 
   .selection .region {
     background-color: @syntax-selection-color;
@@ -326,5 +326,70 @@ atom-text-editor([mini]) .scroll-view {
     &.indent-guide-active {
       background-color: @purple;
     }
+  }
+}
+
+
+// styles for teletype
+
+.cursor.ParticipantCursor {
+  &--site-1 {
+    border-left-color: @cyan;
+  }
+
+  &--site-2 {
+    border-left-color: @blue;
+  }
+
+  &--site-3 {
+    border-left-color: @purple;
+  }
+
+  &--site-4 {
+    border-left-color: @green;
+  }
+
+  &--site-5 {
+    border-left-color: @orange;
+  }
+
+  &--site-6 {
+    border-left-color: spin(@cyan, 25);
+  }
+
+  &--site-7 {
+    border-left-color: spin(@blue, 25);
+  }
+
+  &--site-8 {
+    border-left-color: spin(@purple, 25);
+  }
+
+  &--site-9 {
+    border-left-color: spin(@green, 25);
+  }
+
+  &--site-10 {
+    border-left-color: spin(@orange, 25);
+  }
+
+  &--site-11 {
+    border-left-color: spin(@cyan, 65);
+  }
+
+  &--site-12 {
+    border-left-color: spin(@blue, 65);
+  }
+
+  &--site-13 {
+    border-left-color: spin(@purple, 65);
+  }
+
+  &--site-14 {
+    border-left-color: spin(@green, 65);
+  }
+
+  &--site-15 {
+    border-left-color: spin(@orange, 65);
   }
 }
